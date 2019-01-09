@@ -22,6 +22,18 @@ allprojects {
     }
 }
 
+ext {
+    daggerVersion = '2.20'
+    androidSupportVersion = '28.0.0'
+    rxKotlinVersion = '2.3.0'
+    retrofitVersion = '2.5.0'
+    gsonVersion = '2.8.5'
+    rxLifecycleVersion = '2.2.2'
+    interceptorVersion = '3.12.1'
+    rxBindingVersion = '2.2.0'
+    reactiveNetworkVersion='3.0.2'
+    mockitoKotlinVersion='2.1.0'
+}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
